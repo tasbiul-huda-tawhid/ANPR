@@ -1,4 +1,5 @@
 Automated Number Plate Recognition (ANPR) System
+
 Welcome to the Automated Number Plate Recognition (ANPR) System repository! This project aims to develop a real-time ANPR system using OpenCV and Tesseract OCR. The system captures video from a webcam, detects vehicle number plates using Haar cascades, and extracts text from the detected plates using Tesseract OCR.
 
 Project Overview
