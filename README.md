@@ -1,20 +1,14 @@
-Automated Number Plate Recognition (ANPR) System
+# Automated Number Plate Recognition (ANPR) System
 
-Welcome to the Automated Number Plate Recognition (ANPR) System repository! This project aims to develop a real-time ANPR system using OpenCV and Tesseract OCR. The system captures video from a webcam, detects vehicle number plates using Haar cascades, and extracts text from the detected plates using Tesseract OCR.
+A Python learning project that uses OpenCV to detect candidate number plates in webcam frames and Tesseract to extract text. The script saves the OCR output to local text files. The current setup uses Windows-specific paths and has not been validated for Australian plates.
 
-Project Overview
-The ANPR system uses a combination of image processing techniques and machine learning models to accurately detect and recognize vehicle number plates in real time. The captured frames from the webcam are processed to identify number plates, which are then passed to the OCR engine for text extraction. The extracted text is saved in a structured format for further analysis or storage.
+## Prerequisites
 
-Features
-Real-time number plate detection using OpenCV.
-Text extraction from number plates using Tesseract OCR.
-Save detected number plates and extract text to local storage.
-Adjustable detection parameters for optimal performance.
-Installation
-Prerequisites
-Python 3.x
-OpenCV
-Tesseract OCR
-Haar Cascade for Russian number plates
+- Python 3
+- OpenCV and pytesseract (see [`requirements.txt`](ANPR_sys_1.0/requirements.txt))
+- Tesseract OCR installed separately
+- A webcam and the bundled Haar cascade file
 
-Author: Tasbiul Huda Tawhid, IT graduate from Mahsa University, Malaysia.
+The repository currently includes [machine-specific Windows notes](ANPR_sys_1.0/ReadMeToRunProject.txt). They are not a portable setup guide.
+
+Author: Tasbiul Huda Tawhid
